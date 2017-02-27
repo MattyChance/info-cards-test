@@ -19,6 +19,7 @@ h4 {
 }
 
 img {
+  height: 220px;
   width: 100%;
   display: block;
   position: relative;
@@ -72,12 +73,12 @@ a {
   color: white;
 }
 
-.card .pushUp {
+.card .bottomDetails {
   transition: transform 0.4s;
 }
 
-.card:hover .pushUp {
-  transform: translateY(-287px);
+.card:hover .bottomDetails {
+  transform: translateY(-50px);
 }
 
 .flipUp {
@@ -90,6 +91,6 @@ a {
 
 .card:hover .flipUp{
   opacity: 1;
-  transform: translateY(-67px);
+  transform: translateY(-50px);
   transition: transform 0.4s, opacity 0.1s;
 }
