@@ -63,6 +63,7 @@ img {
   justify-content: space-around;
   top: 175;
   color: white;
+  font-weight: bold;
 }
 
 .bottomDetails p {
@@ -79,6 +80,7 @@ a {
   justify-content: space-around;
   background-color: #87d255;
   color: white;
+  font-family: "Open Sans SemiBold";
 }
 
 .card .bottomDetails {
